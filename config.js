@@ -24,7 +24,7 @@ module.exports = {
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   READ_CMD: toBool(process.env.READ_CMD),
-  SESSION_ID: process.env.SESSION_ID || "izumi session",
+  SESSION_ID: process.env.SESSION_ID || "izumi~XoxTRDbR#Gl1PxPSytBOvcmTBSHJ4TBrK_iypRJAH6DVmdcwZjWU",
   MENU_URL: process.env.MENU_URL || "https://files.catbox.moe/hkqhic.jpeg",
   CAPTION: process.env.CAPTION || "Made with 🤍",
   READ_MSG: toBool(process.env.READ_MSG),
@@ -43,7 +43,7 @@ module.exports = {
   KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || "name",
   KOYEB: toBool(process.env.KOYEB) || false,
   HEROKU: toBool(process.env.HEROKU) || false,
-  TERMUX: toBool(process.env.TERMUX) || false,
+  TERMUX: toBool(process.env.TERMUX) || true,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
