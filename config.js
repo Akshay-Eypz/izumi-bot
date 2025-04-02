@@ -24,7 +24,7 @@ module.exports = {
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   LOG_MSG: toBool(process.env.LOG_MSG) || true,
   READ_CMD: toBool(process.env.READ_CMD),
-  SESSION_ID: process.env.SESSION_ID || "izumi session",
+  SESSION_ID: process.env.SESSION_ID || "izumi~XoxTRDbR#Gl1PxPSytBOvcmTBSHJ4TBrK_iypRJAH6DVmdcwZjWU",
   MENU_URL: process.env.MENU_URL || "https://files.catbox.moe/hkqhic.jpeg",
   CAPTION: process.env.CAPTION || "Made with 🤍",
   READ_MSG: toBool(process.env.READ_MSG),
