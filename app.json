@@ -19,8 +19,8 @@
      },
      "BOT_NAME": {
       "description": "enter your bot name",
-      "required": "false",
-      "value": "Iᴢᴜᴍɪ-ᴍᴅ"
+      "required": "true",
+      "value": "Rottech-ᴍᴅ"
     },
        "STICKER_PACKNAME": {
       "description": "enter your sticker pack name",
@@ -43,8 +43,8 @@
     },
     "SUDO": {
       "description": "add sudo",
-      "required": "false",
-      "value": "91xxxxxxxxxx",
+      "required": "true",
+      "value": "254799211357",
     },
     "MODE": {
       "description": "bot work mode",
