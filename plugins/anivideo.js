@@ -6,7 +6,7 @@ izumi ({
     desc: "random Naruto anime videos",
     type: "Anime",
 }, async (message, match) => {
-  const { result } = await getJson(apiUrl + 'api/anime/naruto?apikey=izumi-v3');
+  const { result } = await getJson(eypzApi + 'naruto');
   message.sendFromUrl(result.url, {
     contextInfo: {
       mentionedJid: [message.sender],

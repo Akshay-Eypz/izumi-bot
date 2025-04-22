@@ -10,8 +10,8 @@ function convertToBool(text, fault = 'true') {
 
 const toBool = (x) => (x && x.toLowerCase() === 'true') || false;
 global.apiUrl = 'https://api.maskser.me/'
-global.eypzApi = 'https://api.eypz.infy.uk/'
-
+global.eypzApi = 'https://api2.eypz.infy.uk/'
+global.Api = 'https://api.eypz.infy.uk/'
 
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? './database.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
@@ -33,7 +33,7 @@ module.exports = {
   SUDO: process.env.SUDO || null,
   LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || "Iᴢᴜᴍɪ-ᴍᴅ,Eʏᴘᴢ",
-  AUDIO_DATA: process.env.AUDIO_DATA || "Eʏᴘᴢ;Iᴢᴜᴍɪ-ᴍᴅ;https://files.catbox.moe/eykuka.png",
+  AUDIO_DATA: process.env.AUDIO_DATA || "Eʏᴘᴢ;Iᴢᴜᴍɪ-ᴍᴅ;https://files.catbox.moe/hkqhic.jpeg",
   PROCESSNAME: process.env.PROCESSNAME || "Iᴢᴜᴍɪ-ᴍᴅ",
   AUTHOR: process.env.AUTHOR || "Eʏᴘᴢ",
   DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
